@@ -1,0 +1,215 @@
+header {
+    width: 100%;
+    height: 50px;       
+}
+ul {
+    list-style: none;
+    text-align: right;
+    margin-right: 20px;
+}
+li {
+    display: inline;
+    padding: 10px;
+    background-color: #E6E6E6;
+    border-radius: 10%;
+}
+ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: georgia;
+    font-weight: bold;
+    line-height: 30px;
+}
+article {
+    background-color: #F2F2F2;
+    height: 450px;
+    width: 100%;
+}
+.title {
+    font-size: 40px;
+    font-family: georgia;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.container2 {
+    text-align: center;
+}
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 2px #d21d10 solid;
+}
+label {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: georgia;
+}
+
+.bloc {
+background-color: grey;
+height: 140px;
+text-align: center;
+
+}
+
+.bloc a {
+color: black;
+    
+}
+
+button:hover {
+background-color:red;
+}
+
+li:hover{
+background-color: white;
+}
+
+.bloc a:hover {
+color: white;
+}
+
+body, html {
+    background: #f6f6f6 ;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: #d21d10 ;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 5px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.titrelogo {
+    color: white;
+    font-size: 26px;
+    margin-left: 5px;
+    font-family: Verdana, 'DejaVu Sans';
+}
+
+.menu {
+    margin-left: auto;
+    display: flex;
+}
+
+
+.bouton {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    border: 2px solid #ffffff ;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bouton:hover {
+    background-color: #ffffff ;
+    color: #d21d10 ;
+}
+
+.boutontext {
+    height: 30px;
+    border-radius: 100px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid #ffffff ;
+    box-sizing: border-box;
+    font-family: Verdana, 'DejaVu Sans';
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.boutontext:hover {
+    background-color: #ffffff ;
+    color: #d21d10 ;
+}
+
+
+.container {
+    padding: 50px 150px;
+}
+
+.partie {
+    font-family: Verdana, 'DejaVu Sans';
+    color: #333333 ;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.boutonpoussoir {
+    width: 200px;
+    height: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #d21d10 ;
+    border-bottom: 4px solid #b2140b ;
+    color: white;
+    transition-property: border margin;
+    transition-duration: 0.2s;
+}
+
+.boutonpoussoir:hover {
+    margin-top: 3px;
+    border-bottom: 1px solid #b2140b ;
+}
+
+.containertableau {
+    display: flex;
+}
+
+.tableau {
+    width: 20%;
+    height: 100px;
+    background-color: cadetblue;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    transition-property: width;
+    transition-duration: 0.4s;
+}
+
+.tableau:hover {
+    width: 30%;
+}
+
+.code {
+height: 100px;
+width: 50px;
+color: blue;
+}
