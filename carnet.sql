@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Lun 29 Janvier 2018 à 10:03
+-- Généré le :  Lun 29 Janvier 2018 à 10:41
 -- Version du serveur :  5.7.21-0ubuntu0.16.04.1
 -- Version de PHP :  7.0.22-0ubuntu0.16.04.1
 
@@ -31,6 +31,7 @@ CREATE TABLE `contacts` (
   `nom` text NOT NULL,
   `prenom` text NOT NULL,
   `tel` varchar(20) NOT NULL,
+  `mail` varchar(255) NOT NULL,
   `utlisateur_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -45,6 +46,7 @@ CREATE TABLE `utilisateurs` (
   `nom` text NOT NULL,
   `prenom` text NOT NULL,
   `mail` varchar(255) NOT NULL,
+  `identifiant` varchar(255) NOT NULL,
   `mdp` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -81,4 +83,3 @@ ALTER TABLE `utilisateurs`
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-ALTER TABLE `contacts` ADD `mail` VARCHAR(50) NOT NULL AFTER `utlisateur_id`;
