@@ -1,39 +1,74 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Appli Web</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-</head>
-<body>
-<div class="banner">
-        <span class="titrelogo">
-            <a href="#">
-               Address Book
-            </a>
-        </span>
-        <span class="menu"> <a href="page_accueil.php"> 
-                   <div class="boutontext">              
-                    Se connecter
-                </div>
-            </a>
-        </span>
-    </div>
-    
-    <section>
-        <article>
-            <div class="title">Inscription</div><br>
-            <div class="container2">
-            <form action="Inscription.php">
-                <label>Nom</label><br>
-                <div class="form"><input type="text" placeholder="ex: nom"  name="login"></div><br><br>
-                <label>Mot de passe</label><br>
-                <div class="form"><input type="Password" placeholder="entrer votre mot de passe" name="password"></div><br>
-                <button type="submit" name="submit">S'inscrire !</button>
-            </form>
-            </div>
-        </article>
-    </section>
-    <div class="bloc"><a href="page_accueil.php">Vous avez déjà un compte ? Connectez-vous.</a></div>
-    
-</body>
-</html>
+   <html lang="fr">
+
+   <head>
+       <meta charset="UTF-8">
+       <title>Inscription</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+       <link href="styles/style.css" media="all" rel="stylesheet" type="text/css" />
+   </head>
+
+   <body>
+
+       
+       
+       <div class="container">
+           <form action="" method="post">
+               <div class="row">
+                   <div class="col-md-offset-2 col-md-8">
+                       <h1> Inscription <br/> <small> Merci de renseigner vos informations </small></h1>
+                   </div>
+               </div>
+
+               <div class="row">
+                   <div class="col-md-offset-2 col-md-3">
+                       <div class="form-group">
+                           <label for="Nom">Nom</label>
+                           <input type="text" class="form-control" id="nom" placeholder="Nom">
+                       </div>
+                   </div>
+                   <div class="col-md-offset-1 col-md-3">
+                       <div class="form-group">
+                           <label for="Prenom">Prénom</label>
+                           <input type="text" class="form-control" id="prenom" placeholder="Prénom">
+                       </div>
+                   </div>
+               </div>
+
+               <div class="row">
+                   <div class="col-md-offset- col-md-3">
+                       <div class="form-group">
+                           <label for="Email"> Email</label>
+                           <input type="text" class="form-control" id="email" placeholder="Enter email">
+                       </div>
+                   </div>
+               </div>
+                <div class="row">
+                   <div class="col-md-offset-2 col-md-3">
+                       <div class="form-group">
+                           <label for="text"> identifiant</label>
+                           <input type="text" class="form-control" id="identifiant" placeholder="choisir un identifiant">
+                       </div>
+                   </div>
+               </div> 
+
+               <div class="row">
+                   <div class="col-md-offset-2 col-md-3">
+                       <div class="form-group">
+                           <label for="Password">Mot de passe</label>
+                           <input type="password" class="form-control" id="password" placeholder="Mot de passe">
+                       </div>
+                   </div>
+                   <div class="col-md-offset-1 col-md-3">
+                       <div class="form-group">
+                           <label for="Vpassword">Vérification mot de passe</label>
+                           <input type="password" class="form-control" id="vpassword" placeholder="Vérification mot de passe">
+                       </div>
+                   </div>
+               </div>
+
+
+               <br/>
+
+               <input id="connection" type="submit" value="S'inscrire ">
+               <input id="annu" type="button" onclick="window.location.replace('chemin/vers/la/page')" value="Annuler" />
